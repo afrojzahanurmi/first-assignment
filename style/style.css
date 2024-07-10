@@ -12,6 +12,11 @@ nav p{
 }
 
 /*banner style*/
+a:link{ color: #FAFAFB;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
 .banner{
     width: 100%;
     height: 652px;
@@ -54,7 +59,7 @@ margin-top: 10px;
     margin: 0 auto;
     margin-top: 100px; 
     background-color: #FAFAFB;
-    padding: 80px 97px;
+    padding: 60px 97px;
 
 }
 .sec-1-title{
@@ -163,6 +168,7 @@ background: rgba(255, 223, 0, 0.05);
     background-image: url('../assets/handshake.jpg');
     border-radius: 16px;
     color: rgb(255, 255, 255);
+    margin-top: 50px;
 }
 
 .support{
