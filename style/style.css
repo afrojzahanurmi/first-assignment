@@ -13,7 +13,7 @@ nav p{
 
 /*banner style*/
 .banner{
-    width: 1440px;
+    width: 100%;
     height: 652px;
     background-image: url('../assets/Hero-bg.png');
     margin: 0 auto;
@@ -48,11 +48,13 @@ margin-top: 10px;
 }
 /*main section part 1*/
 .main-sec-1{
-    width: 933px;
-    height: 1246px;
+    width: 1140px;
+    height: 1395px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 154px;
+    margin-top: 154px; 
+    background-color: #FAFAFB;
+    padding: 80px 97px;
 
 }
 .sec-1-title{
@@ -82,4 +84,96 @@ margin-top: 48px;
     height: 220px;
     width: 477px;
     
+}
+/*section part 2 style*/
+.sec-2{ text-align: center;
+    width: 1140px;
+    height: 735px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+ .inspiration{ 
+width: 852px;
+padding: 0 144px;
+
+ }
+.sec-2 iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin-top: 50px;
+    
+}
+/*section 3 part style*/
+.sec-3{ height: 460px;
+    width: 1140px;
+margin: 0 auto;
+margin-top: 100px; 
+text-align: center;
+}
+.current-target{
+ display: flex;
+ margin-top: 30px;
+ gap: 20px;
+
+    
+
+}
+.sec-3-column{
+    text-align: left;
+    border-radius: 16px;
+    padding: 40px 40px;
+}
+   .background-3{
+background: rgba(255, 223, 0, 0.05);
+}
+.background-2{background: rgba(0, 76, 232, 0.05);
+
+}
+.background-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+/*section 4 part style*/
+.sec-4{
+    height: 866px;
+    width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.next-target{
+    display: flex;
+}
+.img{ 
+    padding: 10px 20px;
+}
+/*section part 5 style*/
+.sec-5{height: 314px;
+    width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 64px 48px;
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.support{
+    width: 606px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sub{
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    
+}
+.sub-2{
+    width: 120px;
+    height:58px ;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
 }
