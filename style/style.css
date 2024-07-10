@@ -52,7 +52,7 @@ margin-top: 10px;
     height: 1395px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 154px; 
+    margin-top: 100px; 
     background-color: #FAFAFB;
     padding: 80px 97px;
 
@@ -142,16 +142,13 @@ background: rgba(255, 223, 0, 0.05);
     margin: 0 auto;
     margin-top: 100px;
 }
-.sec-4-column{
-text-align: left;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
 
-}
+
 .next-target{
     display: flex;
-
-
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 20px 20px;
 }
 .img{ 
     padding: 10px 20px;
@@ -187,11 +184,17 @@ border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.15);
 }
 /*footer style*/
-.foot{ height: 100px;
+
+.last{
     width: 100%;
+    height: 100px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 100px;
+}
+.foot{ 
+    
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 100px;
-
+    padding: 32px 150px;
+    
 }
