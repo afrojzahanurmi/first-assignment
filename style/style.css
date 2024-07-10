@@ -142,11 +142,20 @@ background: rgba(255, 223, 0, 0.05);
     margin: 0 auto;
     margin-top: 100px;
 }
+.sec-4-column{
+text-align: left;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+}
 .next-target{
     display: flex;
+
+
 }
 .img{ 
     padding: 10px 20px;
+
 }
 /*section part 5 style*/
 .sec-5{height: 314px;
@@ -176,4 +185,13 @@ background: rgba(255, 223, 0, 0.05);
     height:58px ;
     border-radius: 8px;
     border: 1px solid rgba(13, 19, 33, 0.15);
+}
+/*footer style*/
+.foot{ height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+
 }
